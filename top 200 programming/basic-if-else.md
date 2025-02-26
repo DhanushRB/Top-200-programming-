@@ -635,9 +635,9 @@ public class anagram
 
 Output:
 Ënter the String
-jasmine
+dhanush
 Ënter the string 
-jasmine
+dhanush
 both String is Anagram
 
 ````
