@@ -1,0 +1,44 @@
+///React app folder creation command///
+   ->node -v
+   ->npm -v
+   ->npx create -react -app foldername
+   ->cd folder-name
+   ->npm start
+
+///git command///
+
+->git init
+->git remote add origin "http....(repository link).git"
+->git add .
+->git commit -m "initial commit"
+->git push
+
+
+
+///when deploy the reactjs app or project in github using git this command want to write the command prompt in folderlocation(cmd)///
+
+->npm install gh-pages--save-dev
+->npm run deploy
+
+
+//updates the files in github so using this command///
+
+->git add .
+->git commit -m"update commit"
+->git push
+
+
+///when updates the files in github again deploy want to deploy so use this command///
+
+->npm run deploy
+
+
+///packages.json///
+
+-> "homepages":"https:.....(when deploy the project that link want here like example https:...io/....)"
+
+
+---in this packages.json add the line in SCRIPTso--- 
+
+->"predeploy" :"npm run build",
+    "deploy":"gh-pages-d build"
